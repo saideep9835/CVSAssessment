@@ -5,9 +5,9 @@
 //  Created by Saideep Reddy Talusani on 12/3/24.
 //
 import UIKit
-class Utilities{
+class Cache{
     private let cache = NSCache<NSString, UIImage>()
-    static let shared = Utilities()
+    static let shared = Cache()
     private init(){ }
     
     func getData(key: String)-> UIImage?{
