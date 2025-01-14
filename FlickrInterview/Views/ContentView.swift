@@ -19,7 +19,7 @@ struct ContentView: View {
         NavigationView{
             VStack {
                 // MARK: - Title
-                Text("Flicker App")
+                Text("Flickr App")
                     .font(.largeTitle)
                     .fontWeight(.semibold)
                 // MARK: - Search Bar
