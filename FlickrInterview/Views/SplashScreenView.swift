@@ -13,7 +13,7 @@ struct SplashScreenView: View {
 
     var body: some View {
         if isActive {
-            ContentView() // Your main content view
+            ContentView() // main content view
         } else {
             VStack {
                 Text("Welcome to Flickr App")
@@ -32,7 +32,6 @@ struct SplashScreenView: View {
         }
     }
 }
-
 
 #Preview {
     SplashScreenView()
